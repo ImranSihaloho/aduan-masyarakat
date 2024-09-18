@@ -1,0 +1,13 @@
+/* Custom animations */
+@keyframes scaleUp {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+.scale-up:hover {
+  animation: scaleUp 0.3s ease-in-out;
+}
